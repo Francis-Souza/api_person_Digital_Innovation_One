@@ -1,6 +1,6 @@
-<h2>Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
+<h2>Digital Innovation: Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
-Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
+Pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
 Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
@@ -27,7 +27,7 @@ http://localhost:8080/api/v1/people
 São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
 * Java 11 ou versões superiores.
-* Maven 3.6.3 ou versões superiores.
+* Maven 3.6.0 ou versões superiores.
 * Intellj IDEA Community Edition ou sua IDE favorita.
 * Controle de versão GIT instalado na sua máquina.
 * Conta no GitHub para o armazenamento do seu projeto na nuvem.
