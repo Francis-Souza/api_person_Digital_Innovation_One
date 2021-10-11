@@ -27,16 +27,12 @@ public class PersonController {
 
     private final PersonService personService;
 
-    @GetMapping
-    public String getBook(){
-        return "API Test !=====..";
-    }
 
-//    @PostMapping
-//    @ResponseStatus(HttpStatus.CREATED)
-//    public MessageResponseDTO create(@RequestBody @Valid PersonDTO personDTO) {
-//        return personService.create(personDTO);
-//    }
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public MessageResponseDTO create(@RequestBody @Valid PersonDTO personDTO) {
+        return personService.create(personDTO);
+    }
 //
 //    @GetMapping("/{id}")
 //    @ResponseStatus(HttpStatus.OK)
@@ -52,7 +48,7 @@ public class PersonController {
 //    @PutMapping("/{id}")
 //    @ResponseStatus(HttpStatus.OK)
 //    public MessageResponseDTO update(@PathVariable Long id, @RequestBody @Valid PersonDTO personDTO) throws PersonNotFoundException {
-//        return personService.update(id, personDTO);
+//        return personService.updateById(id, personDTO);
 //    }
 //
 //    @DeleteMapping("/{id}")

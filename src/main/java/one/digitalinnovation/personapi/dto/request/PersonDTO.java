@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.br.CPF;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -31,6 +33,9 @@ public class PersonDTO {
     @NotEmpty
     @CPF
     private String cpf;
+
+    @NotEmpty
+    private String age;
 
     @NotNull
     private String birthDate;
