@@ -33,13 +33,13 @@ public class PersonController {
     public MessageResponseDTO create(@RequestBody @Valid PersonDTO personDTO) {
         return personService.create(personDTO);
     }
-//
-//    @GetMapping("/{id}")
-//    @ResponseStatus(HttpStatus.OK)
-//    public PersonDTO findById(@PathVariable Long id) throws PersonNotFoundException {
-//        return personService.findById(id);
-//    }
-//
+
+    @GetMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public PersonDTO findById(@PathVariable Long id) throws PersonNotFoundException {
+        return personService.findById(id);
+    }
+
 //    @GetMapping
 //    public List<PersonDTO> listAll() {
 //        return personService.listAll();
