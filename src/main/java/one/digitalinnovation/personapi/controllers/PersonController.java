@@ -40,10 +40,10 @@ public class PersonController {
         return personService.findById(id);
     }
 
-//    @GetMapping
-//    public List<PersonDTO> listAll() {
-//        return personService.listAll();
-//    }
+    @GetMapping
+    public List<PersonDTO> listAll() {
+        return personService.listAll();
+    }
 //
 //    @PutMapping("/{id}")
 //    @ResponseStatus(HttpStatus.OK)
