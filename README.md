@@ -1,4 +1,4 @@
-<h2>Digital Innovation - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
+<h2>Digital Innovation One - Desenvolvendo um Sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
 Pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
