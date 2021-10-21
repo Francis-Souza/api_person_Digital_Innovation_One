@@ -1,5 +1,7 @@
 <h2>Digital Innovation One - Desenvolvendo um Sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<h3>DESCRIÇÃO DO PROJETO</h3>
 Pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
 Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
